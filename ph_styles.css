@@ -106,8 +106,8 @@ h1 {
 
 #play1 h1 {
     font-family: 'Champagne';
-    font-style: cursive;
-
+    font-family: cursive;
+    font-style: italic;
 }
 #play2 h1 {
     font-family: '' ;
