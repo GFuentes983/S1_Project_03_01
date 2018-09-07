@@ -4,11 +4,15 @@
 	font-family: 'Champagne';
 	src: url('cac_champagne.woff') format('woff'), 
     url('cac_champagne.ttf') format('truetype');
+}
+@font-face {
     font-family: 'Grunge'; 
     src: url('1942.woff') format('woff'),
     url('1942.ttf') format('tff');
+}
+@font-face {
     font-family: 'Dobkin';
-    src: url('DobkinPlain.woff') format('woff')
+    src: url('DobkinPlain.woff') format('woff'),
     url('DobkinPlain.ttf') format('tff');
 }
 
@@ -58,18 +62,19 @@ body>p {
 
 /* Navigation Styles */
 
-nav {
+nav a {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
     padding: 10px 0px 10px 0px;
 }
 
-nav:visited, nav:link {
+nav a:visited, nav a:link {
     color: white;
     text-decoration: none;
     background-color: hsla(0, 0%, 42%, .4);
 }
 nav a:hover, nav a:active {
-    color: hsla(0, 0%, 100%, 0.7);
+    text-decoration-color: hsla(0, 0%, 100%, 0.7);
+    text-decoration: none;
     background-color: hsl(0, 0%, 42%, 0.7);
 }
 
@@ -105,24 +110,35 @@ h1 {
 }
 
 #play1 h1 {
-    font-family: 'Champagne';
-    font-family: cursive;
-    font-style: italic;
+    text-align: left;
+    font-family: 'cursive';
+    font-family: 'Champagne'; 
 }
 #play2 h1 {
-    font-family: '' ;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Grunge';
 }
-#play3 h1 {
-    font-family: '' ;
+#play3 h1 { 
+    text-align: left;
+    font-family: 'Impact', Charcoal, sans-serif;
 }
 #play4 h1 {
-    font-family: '' ;
+    text-align: left;
+    font-family: 'cursive';
+    font-family: 'Dobkin';
 }
 
-
-
-
-
-
 /* Description List Styles */
+
+dt {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: hsla(0, 0%, 0%, 0.4);
+}
+
+dd {
+    font-size: 1.3em;
+    margin: 0px 0px 10px 0px;
+}
 
