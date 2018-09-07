@@ -16,6 +16,8 @@
     url('DobkinPlain.ttf') format('tff');
 }
 
+/* The Font-Face selector allows for using font files and using them in the CSS document. This is setup to Rename and use the fonts. */
+
     
 
 /*
@@ -60,6 +62,8 @@ body>p {
     text-align: center;
 }
 
+/* This is meant to make the basic sectioning elements of HTML be colored, and margined to specifcations. The font sizes and use of fonts were also added in so it looks like the font specified. */
+
 /* Navigation Styles */
 
 nav a {
@@ -77,6 +81,8 @@ nav a:hover, nav a:active {
     text-decoration: none;
     background-color: hsl(0, 0%, 42%, 0.7);
 }
+
+/* The Nav is setup to look different from the other content by color, margin and it being at the top of every different play. */
 
 /* Section Styles */
 
@@ -129,6 +135,8 @@ h1 {
     font-family: 'Dobkin';
 }
 
+/* This is designed to make each play font, color, margins and padding look different from eachother its made so it has 4 different of each for color and font but they are setup the same for padding and margins. */
+
 /* Description List Styles */
 
 dt {
@@ -142,3 +150,4 @@ dd {
     margin: 0px 0px 10px 0px;
 }
 
+/* This is designed to set the font size and the margin so its 10 pixels from the bottom and the font size is 1.3 em. */
